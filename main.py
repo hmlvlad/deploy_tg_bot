@@ -10,7 +10,7 @@ dp = Dispatcher()
 
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
-    await message.answer("Hello Dimon test!")
+    await message.answer("Hello Dimon 22222222222222222222!")
 
 @dp.message()
 async def send_doc(message):
